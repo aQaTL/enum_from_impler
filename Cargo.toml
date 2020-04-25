@@ -1,0 +1,15 @@
+[package]
+name = "enum_from_impler"
+version = "0.1.0"
+authors = ["aQaTL <mmsoltys@outlook.com>"]
+edition = "2018"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = { version = "1.0.18", features = ["derive"] }
+quote = "1.0.3"
